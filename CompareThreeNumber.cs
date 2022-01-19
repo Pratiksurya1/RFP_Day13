@@ -24,6 +24,7 @@ namespace RFP_GenericsMinAndMax
                 therdNum.CompareTo(secondNum) >= 0 && therdNum.CompareTo(firstNum) > 0 ||
                 therdNum.CompareTo(secondNum) > 0 && therdNum.CompareTo(firstNum) >= 0)
                 return therdNum;
+          
             else
                 return 0;
                 

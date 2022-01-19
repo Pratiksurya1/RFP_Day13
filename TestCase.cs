@@ -8,7 +8,7 @@ namespace RFP_GenericsMinAndMax
 {
     internal class TestCase
     {
-        int firstInt = 30;
+        int firstInt = 31;
         int secondInt = 20;
         public void TestMinAndMax()
         {

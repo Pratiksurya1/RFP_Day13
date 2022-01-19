@@ -11,6 +11,7 @@ namespace RFP_GenericsMinAndMax
         public static void Main(String[] args)
         {
             TestCase testCase = new TestCase();
+
             Console.WriteLine(CompareThreeNumber.MaxintNum(10, 35, 20));
         }
     }
