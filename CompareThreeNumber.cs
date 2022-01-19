@@ -8,7 +8,7 @@ namespace RFP_GenericsMinAndMax
 {
     internal class CompareThreeNumber
     {
-        public static float MaxintNum(float firstNum, float secondNum, float therdNum)
+        public static String MaxintNum(String firstNum, String secondNum,String therdNum)
         {
             if (firstNum.CompareTo(secondNum) > 0 && firstNum.CompareTo(therdNum) > 0 ||
                 firstNum.CompareTo(secondNum) >= 0 && firstNum.CompareTo(therdNum) > 0 ||
@@ -26,7 +26,7 @@ namespace RFP_GenericsMinAndMax
                 return therdNum;
           
             else
-                return 0;
+                return null;
                 
         }
     }

@@ -12,7 +12,7 @@ namespace RFP_GenericsMinAndMax
         {
             TestCase testCase = new TestCase();
 
-            Console.WriteLine(CompareThreeNumber.MaxintNum(10.12F, 35.15F, 20.6F));
+            Console.WriteLine(CompareThreeNumber.MaxintNum("Apple","Peach","Banana"));
         }
     }
 }
