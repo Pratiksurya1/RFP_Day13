@@ -20,6 +20,7 @@ namespace RFP_GenericsMinAndMax
 
             else if(firstInt.CompareTo(secondInt) == 0)
                 Console.WriteLine("Two value Equls");
+            
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NPOI.SS.Formula.Functions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace RFP_GenericsMinAndMax
         {
             TestCase testCase = new TestCase();
 
-            Console.WriteLine(CompareThreeNumber.MaxintNum("Apple","Peach","Banana"));
+            Console.WriteLine(CompareThreeNumber<String>.MaxintNum("Apple", "Peach", "Banana"));                                        //CompareThreeNumber.MaxintNum("Apple", "Peach", "Banana"));
         }
     }
 }
