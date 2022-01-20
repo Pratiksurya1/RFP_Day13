@@ -13,17 +13,26 @@ namespace RFP_GenericsMinAndMax
             if (firstNum.CompareTo(secondNum) > 0 && firstNum.CompareTo(therdNum) > 0 ||
                 firstNum.CompareTo(secondNum) >= 0 && firstNum.CompareTo(therdNum) > 0 ||
                 firstNum.CompareTo(secondNum) > 0 && firstNum.CompareTo(therdNum) >= 0)
+            {
+                Console.WriteLine(firstNum+ " is max vlaue");
                 return firstNum;
+            }
 
             else if (secondNum.CompareTo(firstNum) > 0 && secondNum.CompareTo(therdNum) > 0 ||
                      secondNum.CompareTo(firstNum) >= 0 && secondNum.CompareTo(therdNum) > 0 ||
                      secondNum.CompareTo(firstNum) > 0 && secondNum.CompareTo(therdNum) >= 0)
+            {
+                Console.WriteLine(secondNum+" is max vlaue");
                 return secondNum;
+            }
 
             else if (therdNum.CompareTo(secondNum) > 0 && therdNum.CompareTo(firstNum) > 0 ||
                      therdNum.CompareTo(secondNum) >= 0 && therdNum.CompareTo(firstNum) > 0 ||
                      therdNum.CompareTo(secondNum) > 0 && therdNum.CompareTo(firstNum) >= 0)
+            {
+                Console.WriteLine(therdNum+ " is max vlaue");
                 return therdNum;
+            }
             else
                 return firstNum; 
 
@@ -35,22 +44,34 @@ namespace RFP_GenericsMinAndMax
             if (firstNum.CompareTo(secondNum) > 0 && firstNum.CompareTo(therdNum) > 0 && firstNum.CompareTo(fourthNum)>0 ||
                firstNum.CompareTo(secondNum) >= 0 && firstNum.CompareTo(therdNum) > 0 && firstNum.CompareTo(fourthNum) > 0 ||
                firstNum.CompareTo(secondNum) > 0 && firstNum.CompareTo(therdNum) >= 0 && firstNum.CompareTo(fourthNum) > 0)
+            {
+                Console.WriteLine(firstNum + " is max vlaue");
                 return firstNum;
+            }
 
             else if (secondNum.CompareTo(firstNum) > 0 && secondNum.CompareTo(therdNum) > 0 && secondNum.CompareTo(fourthNum) > 0 ||
                      secondNum.CompareTo(firstNum) >= 0 && secondNum.CompareTo(therdNum) > 0 && secondNum.CompareTo(fourthNum) > 0 ||
                      secondNum.CompareTo(firstNum) > 0 && secondNum.CompareTo(therdNum) >= 0 && secondNum.CompareTo(fourthNum) > 0)
+            {
+                Console.WriteLine(secondNum + " is max vlaue");
                 return secondNum;
+            }
 
             else if (therdNum.CompareTo(secondNum) > 0 && therdNum.CompareTo(firstNum) > 0 && therdNum.CompareTo(fourthNum) > 0 ||
                      therdNum.CompareTo(secondNum) >= 0 && therdNum.CompareTo(firstNum) > 0 && therdNum.CompareTo(fourthNum) > 0 ||
                      therdNum.CompareTo(secondNum) > 0 && therdNum.CompareTo(firstNum) >= 0 && therdNum.CompareTo(fourthNum) > 0)
+            {
+                Console.WriteLine(therdNum + " is max vlaue");
                 return therdNum;
+            }
 
             else if (fourthNum.CompareTo(secondNum) > 0 && fourthNum.CompareTo(firstNum) > 0 && fourthNum.CompareTo(fourthNum) > 0 ||
                      fourthNum.CompareTo(secondNum) >= 0 && fourthNum.CompareTo(firstNum) > 0 && fourthNum.CompareTo(fourthNum) > 0 ||
                      fourthNum.CompareTo(secondNum) > 0 && fourthNum.CompareTo(firstNum) >= 0 && fourthNum.CompareTo(fourthNum) > 0)
+            {
+                Console.WriteLine(fourthNum + " is max vlaue");
                 return fourthNum;
+            }
             else
                 return firstNum;
         }
